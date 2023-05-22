@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+grpc = "0.8.3"
+grpc-protobuf = "0.8.3"
+protobuf = "2"
+
 
 [build-dependencies]
-protobuf-codegen = "3.2.0"
-protoc-rust = "2"
+protoc-rust-grpc = "0.8.3"
